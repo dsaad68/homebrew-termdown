@@ -8,12 +8,12 @@ class Termdown < Formula
 
   on_macos do
     url "https://github.com/dsaad68/termdown/releases/download/v0.1.0/termdown-v0.1.0-macos.tar.gz"
-    sha256 "284e6ce148481923425f669749d257b614db738f5330d4e606e3c0121542184b"
+    sha256 "1d0b4d841adb0330469793e1f50f3cabfc1a6b65d290d3a3f5fd12e1a4fa660c"
   end
 
   on_linux do
     url "https://github.com/dsaad68/termdown/releases/download/v0.1.0/termdown-v0.1.0-linux-x86_64.tar.gz"
-    sha256 "772a0a739bbe03a08bdbda9947e638a13efc98e151befc9f81c1201a6c42e998"
+    sha256 "eb77ab0e90432ed8c46d3da82f0452384feedf2dea2cf92650d84265a1a1adf4"
   end
 
   def install
