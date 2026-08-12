@@ -3,17 +3,17 @@
 class Termdown < Formula
   desc "Terminal Markdown browser written in pure Swift"
   homepage "https://github.com/dsaad68/termdown"
-  version "0.1.10"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/dsaad68/termdown/releases/download/v0.1.10/termdown-v0.1.10-macos.tar.gz"
-    sha256 "ba16441fdfd95f73b0ff117c53f45ff6e2df133cf3ef9e2f95ba7e5d11eb3e8f"
+    url "https://github.com/dsaad68/termdown/releases/download/v0.2.0/termdown-v0.2.0-macos.tar.gz"
+    sha256 "3eba1475160a298e77c5d56267182ea3308ab9928fb94dc61174a9ed27c8a52d"
   end
 
   on_linux do
-    url "https://github.com/dsaad68/termdown/releases/download/v0.1.10/termdown-v0.1.10-linux-x86_64.tar.gz"
-    sha256 "da0f8a418787ee5e46564f7d6bcb3b6a39b6ade4539f5eeb748dd7fc5da69d53"
+    url "https://github.com/dsaad68/termdown/releases/download/v0.2.0/termdown-v0.2.0-linux-x86_64.tar.gz"
+    sha256 "d5aaa5a01d78a465b37ae0f07ca55dbcb29e9183c46b1803826921b35bde5bf2"
   end
 
   def install
@@ -21,6 +21,6 @@ class Termdown < Formula
   end
 
   test do
-    assert_match "termdown 0.1.10", shell_output("#{bin}/termdown --version")
+    assert_match "termdown 0.2.0", shell_output("#{bin}/termdown --version")
   end
 end
